@@ -103,7 +103,7 @@ const Cart = () => {
         //   });
         // },
 
-        callback_url: `https://lokender-ecommerce-project-cart.vercel.app/successpage/1`,
+        callback_url: `http://localhost:3000/payment/successfullpage/56598`,
         prefill: {
           name: "Gaurav Kumar",
           email: "gaurav.kumar@example.com",

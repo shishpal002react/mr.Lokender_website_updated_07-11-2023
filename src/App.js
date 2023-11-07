@@ -44,6 +44,7 @@ import PaymentSuccess from "./MyComponents/PaymentPage/PaymentSuccess";
 // import OtpVerify from "./MyComponents/User/otpVerify";
 import Coupon from "./MyComponents/Coupon/Coupon";
 import Notification from "./MyComponents/Notification/Notification";
+import PaymentSuccessfulPage from "./MyComponents/PaymentSuccessfulPage/PaymentSuccessfulPage";
 
 const App = () => {
   return (
@@ -85,6 +86,10 @@ const App = () => {
         <Route path="/popular/product" element={<CompletePopularProduct />} />
         {/* payment status page */}
         <Route path="/successpge/:id" element={<PaymentSuccess />} />
+        <Route
+          path="/payment/successfullpage/:id"
+          element={<PaymentSuccessfulPage />}
+        />
         {/* pupular product screen */}
         <Route path="/couponpage" element={<Coupon />} />
         <Route path="/notification-page" element={<Notification />} />
