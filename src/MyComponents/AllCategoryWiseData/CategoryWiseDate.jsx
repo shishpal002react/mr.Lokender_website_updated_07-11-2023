@@ -7,6 +7,7 @@ import Baseurl from "../../Baseurl";
 
 const CategoryWiseDate = ({id}) => {
   const navigate = useNavigate();
+  //uhf jh 
   const SlideLeft = ()=>{
     var slider = document.getElementById('slider')
     slider.scrollLeft = slider.scrollLeft-500

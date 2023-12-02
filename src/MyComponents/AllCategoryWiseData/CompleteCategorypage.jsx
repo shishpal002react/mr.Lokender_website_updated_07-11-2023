@@ -1,25 +1,24 @@
-import React from 'react'
-import Footer from '../Homepage/Footer/Footer'
-import { useParams } from 'react-router-dom'
-import Navbar from '../Homepage/Navbar/Navbar'
-import NavbarCategory from '../Homepage/NavbarCategory/NavbarCategory'
-import NavbarCategory2 from '../Homepage/NavbarCategory/NavbarCategory2'
-import CategoryWiseDate from './CategoryWiseDate'
-
+import React from "react";
+import Footer from "../Homepage/Footer/Footer";
+import { useParams } from "react-router-dom";
+import Navbar from "../Homepage/Navbar/Navbar";
+import NavbarCategory from "../Homepage/NavbarCategory/NavbarCategory";
+import NavbarCategory2 from "../Homepage/NavbarCategory/NavbarCategory2";
+import CategoryWiseDate from "./CategoryWiseDate";
 
 const CompleteCategorypage = () => {
-    const {id}=useParams();
-
-console.log("id:",id)
+  const { id } = useParams();
+  //hiuf jhi
+  console.log("id:", id);
   return (
     <>
-      <Navbar/>
+      <Navbar />
       {/* <NavbarCategory/> */}
-      <NavbarCategory2/>
-      <CategoryWiseDate id={id}/>
-      <Footer/>
+      <NavbarCategory2 />
+      <CategoryWiseDate id={id} />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
 export default CompleteCategorypage;
